@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgrey;
+  color: blue;
+}
+
+li{
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.aggiungi-studente{
+  position: relative;
+  background-color: violet;
+  width: 200px;
+  height: 200px;
+  color: white;
+  padding: 15px;
+  border-radius: 200px;
+  margin: auto;
+  margin-top: 15%;
+}
+
+.aggiungi-studente:hover{
+  cursor: pointer;
+}
+
+.fas{
+
+  font-size: 70px;
+
+  position: absolute;
+  top: 49%;
+  left: 55%;
+
+  transform: translate(-50%,-50%);
+}
